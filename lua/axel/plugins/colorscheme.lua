@@ -1,6 +1,1 @@
-return {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {},
-}
+return { "sainnhe/gruvbox-material", priority = 1000 }
