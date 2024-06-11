@@ -8,6 +8,6 @@ vim.keymap.set('n', '<leader>fg', function()
     builtin.git_files({ hidden = true })
 end, {})
 
-vim.keymap.set('n', '<leader>g', function()
+vim.keymap.set('n', '<leader>gp', function()
     builtin.grep_string({ search = vim.fn.input("Grep > ") })
 end)
