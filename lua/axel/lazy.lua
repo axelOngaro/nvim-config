@@ -12,4 +12,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("axel.plugins")
-vim.cmd [[colorscheme gruvbox-material]]
+
+vim.cmd.colorscheme "catppuccin"
