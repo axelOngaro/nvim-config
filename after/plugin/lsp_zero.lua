@@ -19,7 +19,6 @@ lsp.format_on_save({
 })
 
 lsp.setup()
-
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
 
